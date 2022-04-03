@@ -1,0 +1,46 @@
+#home{
+    background: url(https://st3.depositphotos.com/3666135/37560/i/450/depositphotos_375608592-stock-photo-white-wood-texture-background-blank.jpg );
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+       
+   }
+   
+   #info{ 
+       background: url(https://st3.depositphotos.com/3666135/37560/i/450/depositphotos_375608592-stock-photo-white-wood-texture-background-blank.jpg );
+       background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-attachment: fixed;
+   }
+   
+   .color-fondo{
+       background-color: gainsboro;
+   }
+   
+   .encabezado{
+       text-align: center;
+       margin: 30px auto;
+   }
+   
+   .imagen{
+      width:90px ;
+   }
+   
+   #logo{
+       margin: 30px auto;
+       width: 250px ;
+   }
+   
+   #centrar{
+       margin: 40px auto;
+       width: 700px ;
+   }
+   
+   #titulo{
+       text-align: center;
+   }
+   .alinear{
+       vertical-align: middle;
+   }
+   
+   
