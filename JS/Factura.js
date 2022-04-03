@@ -54,7 +54,6 @@ function CargarFactura(idfactura){
         contentype: 'application/json',
         success: function(reponse){
             var MiItems = reponse;
-            $('#ID').val(MiItems[0].ID);
             $('#NUMERO_FACTURA').val(MiItems[0].NUMERO_FACTURA);
             $('#ID_SOCIO').val(MiItems[0].ID_SOCIO);
             $('#FECHA_FACTURA').val(MiItems[0].FECHA_FACTURA);
@@ -73,7 +72,6 @@ function CargarFactura(idfactura){
 
 function AgregarFactura(){
     var datosfactura={
-        ID:$('#ID').val(),
         NUMERO_FACTURA:$('#NUMERO_FACTURA').val(),
         ID_SOCIO:$('#ID_SOCIO').val(),
         FECHA_FACTURA:$('#FECHA_FACTURA').val(),
@@ -104,7 +102,6 @@ function AgregarFactura(){
 function ActualizarFactura(idfactura){
     var datosfactura = {
         ID: idfactura,
-        ID:$('#ID').val(),
         NUMERO_FACTURA:$('#NUMERO_FACTURA').val(),
         ID_SOCIO:$('#ID_SOCIO').val(),
         FECHA_FACTURA:$('#FECHA_FACTURA').val(),
